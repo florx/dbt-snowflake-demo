@@ -1,0 +1,17 @@
+name: 'citibike_demo'
+profile: 'citibike_demo'
+config-version: 2
+version: '0.0.1'
+
+source-paths: ["models"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+data-paths: ["data"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+models:
+  raw_stage:
+    tags:
+      - 'raw'
+    materialized: view

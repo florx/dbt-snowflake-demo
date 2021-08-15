@@ -1,0 +1,4 @@
+/dbt-profiles/.user.yml
+target/
+logs/
+/.DS_Store

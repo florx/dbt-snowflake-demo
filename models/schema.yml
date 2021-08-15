@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: citibike
+    schema: public
+    tables:
+      - name: trips
+      - name: json_weather_data

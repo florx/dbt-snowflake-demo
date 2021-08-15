@@ -1,0 +1,16 @@
+citibike_demo:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: <your snowflake account ID> # e.g. aa1111.west-europe.azure
+
+      user: <your-snowflake-username>
+      password: <your-snowflake-password>
+      role: SYSADMIN
+
+      database: CITIBIKE
+      warehouse: COMPUTE_WH
+      schema: PUBLIC
+      threads: 4
+      client_session_keep_alive: False
